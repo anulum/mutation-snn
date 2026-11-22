@@ -12,6 +12,8 @@ MUTATION-SNN — repository foundation
 
 This repository is preparing source-bound mutation testing for neuromorphic suites. Its current executable surface is repository validation tooling. It has no installed mutation-testing package, public mutation runner or qualified mutation report.
 
+Mutation SNN is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 The intended workflow fixes complete source and population identity before execution. Every generated unique mutant and every actual attempt remains visible. Kills require a valid baseline and an attributable failure. Equivalence needs an independent scoped justification; unresolved cases cannot disappear from the report.
 
 Read [Architecture](ARCHITECTURE.md), [validation tooling](validation-tooling.md), [data boundaries](THREAT_MODEL.md) and the [repository boundary decision](adr/0001-repository-boundary.md).

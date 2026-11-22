@@ -12,6 +12,8 @@ MUTATION-SNN — repository foundation
 
 Mutation SNN is being built to evaluate neuromorphic test suites using explicitly selected changes to timing, structure, numerical behavior, stochastic sources and RTL. It will retain the whole generated population, actual baseline and attempt outcomes, attributed kills, justified equivalence and unresolved cases. This checkout contains repository validation tooling and documentation. Full foundation qualification is in progress. There is no installed mutation-testing package, mutation runner, public mutation command or qualified mutation report.
 
+Mutation SNN is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 ## Boundary
 
 This tool owns mutation registry, generation, bounded campaign execution, outcome attribution, complete counts and source-bound reports. Evaluated models and suites remain with their owners. Independent oracles and counterexample reduction remain with Divergence Harness. Evidence Manifest Toolkit owns shared evidence operations. Studio renders existing findings.
